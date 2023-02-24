@@ -23,7 +23,7 @@ public class Audit {
         REQUEST_SENT,
         RESPONSE_RECEIVED
     }
-
+    @Enumerated
     @Column(name = "status")
     private Status status;
 
